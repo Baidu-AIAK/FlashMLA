@@ -533,7 +533,7 @@ flash_fwd_splitkv_mla_fp8_sparse_kernel(__grid_constant__ const DecodingParams p
             }
         }
     }
-
+// Nothing
 #else
     if (cute::thread0()) {
         CUTE_INVALID_CONTROL_PATH("This kernel only supports sm100 ~ sm119");
